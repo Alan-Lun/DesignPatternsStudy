@@ -269,8 +269,11 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\DesignPatterns\Index.cshtml" />
+    <Content Include="Views\DesignPatterns\SimpleFactoryPattern.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Base\SimpleFactoryPattern\Good\" />
+    <Folder Include="App_Base\SimpleFactoryPattern\NotGood\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
