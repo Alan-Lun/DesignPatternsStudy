@@ -190,6 +190,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Add.cs" />
+    <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Factory.cs" />
+    <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Sub.cs" />
+    <Compile Include="App_Base\SimpleFactoryPattern\NotGood\SimpleFactoryPattern_NotGood.cs" />
+    <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -272,8 +277,6 @@
     <Content Include="Views\DesignPatterns\SimpleFactoryPattern.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Base\SimpleFactoryPattern\Good\" />
-    <Folder Include="App_Base\SimpleFactoryPattern\NotGood\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>

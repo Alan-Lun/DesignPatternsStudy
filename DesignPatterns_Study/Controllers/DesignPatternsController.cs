@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DesignPatterns_Study.App_Base.SimpleFactoryPattern.Good;
+using DesignPatterns_Study.App_Base.SimpleFactoryPattern.NotGood;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -26,12 +28,27 @@ namespace DesignPatterns_Study.Controllers
             return View();
         }
 
+        //試者讓業務邏輯與介面邏輯分開，使耦合度下降
+
         /// <summary>
         /// 01-簡單工廠模式
         /// </summary>
         /// <returns></returns>
         public ActionResult SimpleFactoryPattern()
         {
+            #region 不好示範
+            //這樣寫用到了封裝，但這樣寫法如果要再新增其他運算很有可能改到其他運算的邏輯
+            ViewData["Number"] = SimpleFactoryPattern_NotGood.GetResult(2, 2, "+");
+
+            #endregion
+
+            #region 好示範
+            //改成這樣子只要給予符號，由我們自己寫的工廠就可以自己去執行對應的運算
+            SimpleFactoryPattern_Good _Good = SimpleFactoryPattern_Good_Factory.CreateOperate("-");
+            _Good.NumA = 7;
+            _Good.NumB = 3;
+            ViewData["Number2"] = _Good.GetResult();
+            #endregion
 
 
             return View();
