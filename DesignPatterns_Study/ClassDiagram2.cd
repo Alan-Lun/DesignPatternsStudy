@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="DesignPatterns_Study.App_Base.SimpleFactoryPattern.Good.SimpleFactoryPattern_Good">
+    <Position X="2.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAMAAAAA=</HashCode>
+      <FileName>App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.SimpleFactoryPattern.Good.SimpleFactoryPattern_Good_Add">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.SimpleFactoryPattern.Good.SimpleFactoryPattern_Good_Factory">
+    <Position X="5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Factory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.SimpleFactoryPattern.Good.SimpleFactoryPattern_Good_Sub">
+    <Position X="3.75" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Sub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.Animal">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>App_Base\UML\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.BigBird">
+    <Position X="7" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\BigBird.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.Bird">
+    <Position X="13.75" Y="14.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAgAAAAAwA=</HashCode>
+      <FileName>App_Base\UML\Bird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.Abird">
+    <Position X="3" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\Abird.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.Climate">
+    <Position X="6.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\Climate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.BigBirdAggregate">
+    <Position X="4.25" Y="12.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\BigBirdAggregate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DesignPatterns_Study.App_Base.UML.Wing">
+    <Position X="18" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\Wing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DesignPatterns_Study.App_Base.UML.IFly">
+    <Position X="6.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>App_Base\UML\IFly.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft JhengHei UI" Size="9" />
+</ClassDiagram>

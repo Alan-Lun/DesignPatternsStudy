@@ -195,6 +195,14 @@
     <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good_Sub.cs" />
     <Compile Include="App_Base\SimpleFactoryPattern\NotGood\SimpleFactoryPattern_NotGood.cs" />
     <Compile Include="App_Base\SimpleFactoryPattern\Good\SimpleFactoryPattern_Good.cs" />
+    <Compile Include="App_Base\UML\Abird.cs" />
+    <Compile Include="App_Base\UML\Animal.cs" />
+    <Compile Include="App_Base\UML\BigBird.cs" />
+    <Compile Include="App_Base\UML\BigBirdAggregate.cs" />
+    <Compile Include="App_Base\UML\Bird.cs" />
+    <Compile Include="App_Base\UML\Climate.cs" />
+    <Compile Include="App_Base\UML\IFly.cs" />
+    <Compile Include="App_Base\UML\Wing.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -227,6 +235,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="ClassDiagram1.cd" />
+    <Content Include="ClassDiagram2.cd" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
